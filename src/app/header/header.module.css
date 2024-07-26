@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    
+}
+
+.font_size_a{
+    font-size: 18px;
+}
+
+.links {
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+
+.header_button{
+    border-radius: 12px;
+    padding: 12px;
+    width: 185px;
+    height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .info{
+        display: none;
+    }
+}

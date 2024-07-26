@@ -1,0 +1,74 @@
+.mainContainer{
+    height: 500px;
+}
+
+.Font{
+    font-size: 44px;
+}
+
+.Subtext{
+    font-size: 18px;
+}
+
+.infotext{
+    width: 85%;
+}
+
+.textColor{
+    color: white;
+    margin: 0%;
+    font-size: 18px;
+}
+
+.mContainer{
+    background-image: url(./edgecard.png),linear-gradient(90deg,#4ba6c9 39%,#6c40b7 76.5%,#a436ae 99.45%);
+    background-size: auto 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.infoContainer{
+    width: 58.45%;
+}
+
+.subInfoContainer{
+    width: 45%;
+}
+
+.blocks{
+    display: flex;
+    align-items: center;
+    width: 189px;
+    height: 75px;
+    border-radius: 12px;
+    background-color:hsla(0,0%,100%,.21);
+    padding-left: 15px !important;
+}
+
+@media only screen and (max-width:600px) {
+    .mContainer{
+        background-image: linear-gradient(90deg,#4ba6c9 39%,#6c40b7 76.5%,#a436ae 99.45%);
+    }
+    .Font{
+        font-size: 30px;
+    }
+    .Subtext{
+        font-size: 15px;
+    }
+
+    .infoContainer{
+        width: 85%;
+    }
+    .subInfoContainer{
+        width: 100%;
+    }
+    .infotext{
+        width: 85%;
+    }
+    .blocks{
+        height: 85px;
+    }
+    .textColor{
+        font-size: 15px;
+    }
+}

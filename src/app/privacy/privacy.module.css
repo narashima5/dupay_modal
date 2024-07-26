@@ -1,0 +1,107 @@
+.infoContainer {
+  width: 595px;
+}
+
+.heading {
+  padding: 0 40px 0 43px;
+}
+
+.headtext{
+  font-size: 40px;
+}
+
+.info {
+  padding-left: 43px;
+}
+
+.imgContainer {
+  width: 595px;
+}
+
+.hrLine {
+  border-top: 0.5px solid grey;
+  padding-bottom: 0.5px;
+  opacity: 0.5;
+}
+
+.verifyContainer {
+  height: 145px;
+  padding-top: 15px;
+}
+
+.subContainer {
+  width: 320px;
+  align-items: center;
+  gap: 15px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.imgContainer_2 {
+  background-image: url(./getstarted_in_3_simple_steps.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 440px;
+  padding: 42px 52px 52px 37px;
+  border-radius: 32px;
+  width: 900px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.flags{
+  width: 990px;
+  height: 692px;
+}
+
+@media only screen and (max-width:600px) {
+  .imgContainer{
+    display: none;
+  }
+
+  .headtext{
+    font-size: 30px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  .heading{
+    padding: 0;
+  }
+
+  .verifyContainer{
+    flex-direction: column;
+    height: 170px;
+    padding-left: 50px;
+  }
+
+  .icons{
+    width: 20px;
+  }
+  
+  .infoContainer{
+    width: 470px;
+  }
+
+  .info{
+    font-size: 12px;
+  }
+
+  .processCard{
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .imgContainer_2{
+    width: 430px;
+    height: 340px;
+  }
+
+  .flags{
+    width: 92%;
+    height: 400px;
+  }
+}

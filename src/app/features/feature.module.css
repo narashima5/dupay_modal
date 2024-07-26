@@ -1,0 +1,129 @@
+.Width {
+  width: 100%;
+  line-height: 44px;
+  font-size: 44px;
+}
+
+.imgContainer {
+  height: 100%;
+  padding: 42px 52px 52px 37px;
+  border-radius: 32px;
+  width: 900px;
+  max-width: 500px;
+  max-height: 387px;
+  display: flex;
+  align-items: center;
+}
+
+.img_1{
+  background-image: url(./multilangimg.png);
+  background-size: 100% 100%;
+}
+
+.img_2{
+  background-image: url(./paymentimg.png);
+  background-size: 100% 100%;
+}
+
+.IContainer{
+    width: 102%;
+}
+
+.infoContainer {
+  background-image: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+  background-repeat: no-repeat;
+  width: 900px;
+  max-width: 500px;
+  height: 100%;
+  padding: 42px 52px 52px 37px;
+  border-radius: 32px;
+  max-height: 387px;
+  display: flex;
+  align-items: center;
+}
+
+.mtcCard{
+  background-image: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+  background-repeat: no-repeat;
+  width: 1816px;
+  max-width: 1016px;
+  height: 387px;
+  padding: 42px 10px 52px 37px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  width: 60px;
+}
+
+.subText{
+  font-size: 18px;
+}
+
+.mtcCard_info{
+  width: 900px;
+  max-width: 500px;
+  height: 387px;
+  padding: 42px 52px 42px 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mtc_img_Container{
+  width: 983px;
+  height: 387px;
+  padding: 20px 0 42px 0;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.imgContainer_2{
+  background-image: url(./instant_money_transfer.png);
+  background-size: 100% 107%;
+  background-repeat: no-repeat;
+  width: 480px;
+  height: 387px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+  .Width{
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .imgContainer{
+    display: none;
+  }
+
+  .icons{
+    width: 44px;
+  }
+
+  .subText{
+    font-size: 15px;
+  }
+
+  .mtcCard{
+    width: 100%;
+    height: 650px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+
+  .mtc_img_Container{
+    justify-content: center;
+  }
+
+  .imgContainer_2{
+    width: 470px;
+    height: 300px;
+  }
+}
